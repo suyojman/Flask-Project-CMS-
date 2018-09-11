@@ -1,0 +1,11 @@
+{% extends 'base.html'%} {% block body %}
+ {% include 'includes/_messages.html' %}
+
+    <div class='jumbotron' style="margin-top: 30px">
+            <h1>Welcome {{value}} !!</h1>
+           <a class="btn btn-sucess" href="/add_article">Add Article</a>
+           <hr>
+       
+    </div>
+
+{% endblock %}
